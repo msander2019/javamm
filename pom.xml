@@ -150,4 +150,11 @@
 
     </build>
 
+    <!-- for plugin site:stage (maybe not needed) -->
+    <distributionManagement>
+        <site>
+            <id>mesharea.kyiv.ua</id>
+            <url>scp://mesharea.kyiv.ua/javamm/maven-docs</url>
+        </site>
+    </distributionManagement>
 </project>
